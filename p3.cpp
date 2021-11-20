@@ -3,11 +3,14 @@
 #include <vector>
 using namespace std;
 
+void print (string word)
+{
+    cout << word << endl;
+};
+
 int main()
 {
-    int mass[4];
-    mass[0] = 10;
-    cout << mass[0] << endl;
+    print ("Hello World");
 
     system("PAUSE");
 }
